@@ -10,14 +10,16 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Patua+One|Sofia&display=swap" rel="stylesheet">
   <!--- bootstrap --->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
   <!--- font awesome --->
   <script src="https://kit.fontawesome.com/2635fc463b.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <div class="container-fluid">
-  <!--- navigation menu --->
+
+    <!--- navigation menu --->
+
     <nav class="navbar navbar-expand-lg navbar-light">
       <a class="navbar-brand" href="#">Icon placeholder</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,51 +33,69 @@
         </ul>
       </div>
     </nav>
-  <!--- welcome message --->
-    <div class="row justify-content-center" id="welcome">
+
+    <!--- welcome message --->
+
+    <div class="row justify-content-center rowxtra" id="welcome">
       <div class="col-">
         <h1>Hello!</h1>
         <h2>I'm glad you're here.</h2>
       </div>
     </div>
-  <!--- content --->
-    <div class="row midbk justify-content-between" id="intro">
-      <div class="col-md-8">
-        <h5 class="mr-auto">My name is Tracy Porter and I am a Graphic Designer.</h5>
-      </div>
-      <div class="col-md-4"><img src="TracyPorter-44.jpg" alt="tracy's profile photo" width="100%"></div>
-    </div>
+    <!--- intro --->
+    <div class="row justify-content-between rowxtra" id="meat">
+      <div class="col-lg-4 col-md-12 dkbk xtra">
 
-    <div class="row" id="detail">
-      <div class="col-lg-3">
+        <!--- Carousel for portfolio projects --->
+
+        <div id="PortfolioCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+          <a href="portfolio.html">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="images/port1.jpg" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/port2.jpg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/port3.jpg" alt="Third slide">
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-lg-7 col-md-12">
+        <h3>Who I Am</h3>
+        <p>My name is Tracy Porter and I am a Graphic Designer. I have a knack for solving problems. I enjoy the hunt and the brainstorming that comes when the problem is finally found. I love the outdoors, hot coffee, cold beer, good books and great
+          people. I enjoy traveling and exploring both close
+          to
+          home in Utah and destinations abroad. My favorite designs come to life through collaboration with clients and other designers. Teamwork makes the dream work!
+        </p>
+        <br>
+        </br>
         <h3>What I Do</h3>
         <ul>
           <li>Print & Web Media</li>
           <li>Illustration</li>
           <li>Typography</li>
-          <li>Brand Identity</li>
           <li>Web Design</li>
         </ul>
       </div>
-
-      <div class="col-lg-9">
-        <h3>Who I Am</h3>
-        <p>I have a knack for solving problems. I enjoy the hunt and the brainstorming that comes when the problem is finally found. I love the outdoors, hot coffee, cold beer, good books and great people. I enjoy traveling and exploring both close
-          to
-          home in Utah and destinations abroad. My favorite designs come to life through collaboration with clients and other designers. Teamwork makes the dream work!
-        </p>
-      </div>
     </div>
+
     <!--- social menu in footer --->
+
     <div class="row acctbk justify-content-center" id="socialicons">
       <div class="col- ">
         <a href="https://www.linkedin.com/in/tracyporter/"><i class="fab fa-linkedin"></i></a> &nbsp &nbsp
         <a href="https://github.com/tracy522"><i class="fab fa-github"></i></a>
       </div>
     </div>
-
   </div>
+
   <!--- js for bootstrap -->
+
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
