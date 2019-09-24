@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -16,7 +17,9 @@
 
 <body>
   <div class="container-fluid">
-  <!--- navigation menu --->
+
+    <!--- navigation menu --->
+
     <nav class="navbar navbar-expand-lg navbar-light">
       <a class="navbar-brand" href="#">Icon placeholder</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,20 +34,147 @@
       </div>
     </nav>
 
-    <div id="resume">
 
+
+    <div class="row justify-content-between rowxtra" id="CVbody">
+      <div class="col-md-8" id="CVmain">
+
+        <!--- Education section --->
+        <div class="">
+          <h3>Education</h3><br />
+          <div id="edu1">
+            <h5>Bachelors of Science in Information Technology</h5>
+            <p>University of Phoenix</p>
+          </div><br />
+          <div id="edu2">
+            <h5>Advanced Multimedia Design Certificate</h5>
+            <p>University of Phoenix</p>
+          </div><br />
+        </div>
+        <!--- end Education section --->
+
+        <!--- Experience section --->
+
+        <div class="">
+          <h3>Experience</h3><br />
+          <div id="exp1">
+            <h5>Graphic Designer</h5>
+            <p>Vista Outdoor<br />
+              <em>January 2019- September 2019</em>
+            </p>
+            <p>
+              I worked with multiple teams to revise and create brand compliant media. I saved the company over $23K during the revision of key NYSE reporting and investor materials by bringing the production process in house rather than using
+              consultant and publisher services. I helped to communicate company goals and shifting identity through difficult company turn around. Advanced Illustrator and InDesign skills were necessary.
+            </p>
+          </div><br />
+          <div id="exp2">
+            <h5>Executive Assistant</h5>
+            <p>Vista Outdoor<br />
+              <em>March 2016- January 2019</em></p>
+            <p>
+              I assisted the CFO, Legal and Communications teams. Strong communication skills helped me succeed as a member of multiple teams. I provided coding and graphic design services to the communications team including website revisions in
+              WordPress and production of flyers, signs and infographics. I also created VBA excel macros that saved the tax department over $15,000 annually by automating the sales tax reporting process.
+            </p>
+          </div><br />
+          <div id="exp3">
+            <h5>Photographer</h5>
+            <p>Tracy Porter Photography & Design<br />
+              <em>May 2006- August 2014</em></p>
+            <p>
+              I demonstrated excellent organizational and time management skills, and a proactive response to problems. Good judgement and a willingness to adapt to change made me successful in this role. I mastered Photoshop, digital photography and
+              gained some experience with Illustrator and SEO techniques.
+            </p>
+          </div>
+        </div>
+
+        <!--- end Experience section --->
+
+      </div>
+
+
+
+      <div class="col-md-3" id="CVside">
+
+        <!--- Skills section --->
+
+        <div class="clear" id="skillz">
+          <h3>Technical Skills</h3>
+
+          <h5>Highly skilled in:</h5>
+          <div class="row txtcenter">
+            <div class="card space" style="width: 6rem;height: 6rem;">
+              <img class="icon" src="https://image.flaticon.com/icons/svg/552/552222.svg" alt="Illustrator Icon">
+              <p class="card-title">Illustrator</p>
+            </div>
+            <div class="card space" style="width: 6rem;height: 6rem;">
+              <img class="icon" src="https://image.flaticon.com/icons/svg/552/552220.svg" alt="Photoshop icon">
+              <p class="card-title">Photoshop</p>
+            </div>
+          </div>
+
+          <h5>Proficient in:</h5>
+          <div class="row txtcenter">
+            <div class="card space" style="width: 6rem;height: 6rem;">
+              <img class="icon" src="https://image.flaticon.com/icons/svg/552/552223.svg" alt="InDesign icon">
+              <p class="card-title">InDesign</p>
+            </div>
+            <div class="card space" style="width: 6rem;height: 6rem;">
+              <img class="icon" src="https://image.flaticon.com/icons/svg/136/136528.svg" alt="HTML icon">
+              <p class="card-title">HTML 5</p>
+            </div>
+            <div class="card space" style="width: 6rem;height: 6rem;">
+              <img class="icon" src="https://image.flaticon.com/icons/svg/136/136527.svg" alt="CSS Icon">
+              <p class="card-title">CSS 3</p>
+            </div>
+          </div>
+
+          <h5>Some experience with:</h5>
+          <div class="row txtcenter">
+            <div class="card space" style="width: 6rem;height: 6rem;">
+              <img class="icon" src="https://image.flaticon.com/icons/svg/136/136530.svg" alt="JS Icon">
+              <p class="card-title">JavaScript</p>
+            </div>
+            <div class="card space" style="width: 6rem;height: 6rem;">
+              <img class="icon" src="https://camo.githubusercontent.com/a5f1061fb7cedc496c697e46448c39a1e6540184/68747470733a2f2f676574626f6f7473747261702e636f6d2f646f63732f342e332f6173736574732f6272616e642f626f6f7473747261702d736f6c69642e737667"
+                alt="Bootstrap Icon">
+              <p class="card-title">Bootstrap 4</p>
+            </div>
+          </div>
+        </div><br />
+
+        <!--- end skills section --->
+
+        <!--- contact form --->
+
+        <div class="form-group dkbk xtra2" id="contact">
+          <h4>Contact me!</h4>
+          <form action="mailto:tracyporter522@gmail.com" method="post" enctype="text/plain">
+            <label for="userName">Your Name:</label>
+            <input type="text" id="userName" value="" name="userName" class="form-control"><br />
+            <label for="userEmail">Your Email:</label>
+            <input type="email" id="userEmail" name="userEmail" value="" class="form-control"><br />
+            <label for="userMessage">Your Message:</label><br />
+            <textarea id="userMessage" name="name" rows="10" cols="30" class="form-control"></textarea><br />
+            <input class="btn btn-light submit-button" type="submit" name="userMessage" class="form-control">
+          </form>
+        </div>
+        <!--- end contact form --->
+
+
+      </div>
     </div>
-    <div class="mid" id="contact">
-      <h4>Contact me!</h4>
-        <form action="mailto:tracyporter522@gmail.com" method="post" enctype="text/plain">
-            <label for="">Your Name:</label>
-            <input type="text" name="userName" value=""><br /><br />
-            <label for="">Your Email:</label>
-            <input type="email" name="userEmail" value=""><br /><br />
-            <label>Your Message:</label><br />
-            <textarea name="name" rows="10" cols="30"></textarea>
-            <input type="submit" name="userMessage" />
-        </form>
+
+    <!--- social menu in footer --->
+
+    <div class="row acctbk justify-content-center" id="socialicons">
+      <div class="col- ">
+        <a href="https://www.linkedin.com/in/tracyporter/"><i class="fab fa-linkedin"></i></a> &nbsp &nbsp
+        <a href="https://github.com/tracy522"><i class="fab fa-github"></i></a>
+      </div>
     </div>
-  </body>
+  </div>
+
+</body>
+
 </html>
+
